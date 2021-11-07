@@ -11,7 +11,7 @@ Lets get started we will project this project using JSP and servlet.
 Eclipse foundation
 SQLyog
 
-## Creation steps
+## Step to Create project
 
 step1 :
 create a dwp in eclipse 
@@ -38,6 +38,18 @@ mapping in xml file
 
 step5:
 execute the file
+
+## Command for creating table
+
+Create table users(username varchar(20) primary key,password varchar(15) Not Null,role enum("admin","employee") Not null,designation varchar(20),city varchar(15),country varchar(20));
+
+Alter table users add constraint my_c check(role='admin' or role='employee')
+
+Insert into users values("manohar","man@1234","employee","Associate software","bangalore","india");
+
+INSERT INTO users VALUES("man","man123@","admin","manager","bangalore","india");
+
+SELECT * FROM users;
 
 ## Contributing
 
