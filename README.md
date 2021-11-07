@@ -11,7 +11,7 @@ Lets get started we will project this project using JSP and servlet.
 Eclipse foundation
 SQLyog
 
-## Step to Create project
+## Step to Create the project
 
 step1 :
 create a dwp in eclipse 
